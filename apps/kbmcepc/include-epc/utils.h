@@ -48,7 +48,7 @@ using namespace std;
 typedef std::chrono::high_resolution_clock CLOCK;
 typedef std::chrono::microseconds MICROSECONDS;
 
-#define DEBUG 1
+#define DEBUG 0
 #define TRACE(x) if (DEBUG) { x }
 
 #define DEBUG1 2

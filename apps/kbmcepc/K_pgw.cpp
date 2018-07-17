@@ -205,7 +205,7 @@ void *run(void* arg)
                           cout<<"Error : Read Error "<<'\n';
                           exit(-1);
                         }
-                        pkt.len = retval;
+                        pkt.len = n;
 						pkt.extract_gtp_hdr();
 						if(pkt.gtp_hdr.msg_type == 1)
 						{
